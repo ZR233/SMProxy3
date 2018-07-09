@@ -1,0 +1,14 @@
+// the configured options and settings for Tutorial
+#define SMProxy_VERSION_MAJOR @SMProxy_VERSION_MAJOR@
+#define SMProxy_VERSION_MINOR @SMProxy_VERSION_MINOR@
+
+#if defined(__linux) || defined(__linux__) || defined(linux)
+# define LINUX
+
+#elif defined(__APPLE__)
+# define MACOS
+
+#elif defined(_WIN32) || defined(__WIN32__) || defined(WIN32) || defined(_WIN64)
+# define WINDOWS
+
+#endif
