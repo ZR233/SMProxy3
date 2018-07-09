@@ -1,3 +1,3 @@
 #pragma once
 
-void hello();
+/*extern "C" _declspec(dllexport)*/ void hello();
